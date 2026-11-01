@@ -2,17 +2,17 @@
 
 ## 1. Identificación del equipo y del caso
 **Equipo:** Manuel Gomez Bastidas
-**Presentación del caso:** El SICAU es uno de los sistemas informáticos de nuestra institución educativa, encargado de administrar el ciclo de vida académico de los estudiantes y la gestión de los docentes por medio del modelo SIS. La preocupación central de la presente auditoría es la continuidad y disponibilidad de la plataforma durante los periodos de mayor tránsito, específicamente durante el periodo de matrículas. Todo ello abordado a través de las buenas prácticas del marco ITIL.
+**Presentación del caso:** El SICAU es uno de los sistemas informáticos de nuestra institución educativa, encargado de administrar el ciclo de vida académico de los estudiantes y la gestión de los docentes por medio del modelo SIS. La preocupación central de la presente auditoría es la continuidad de la plataforma durante los periodos de mayor tránsito, específicamente durante el periodo de matrículas. Todo ello a través del marco ITIL.
 
-## 2. Contexto y riesgo seleccionado, con referencia a la matriz
-El riesgo abordado corresponde al identificador **R-01** de la matriz de riesgos general de TI de la institución. A continuación, se detallan sus componentes:
+## 2. Contexto y riesgo seleccionado.
+El riesgo abordado corresponde al identificador **R-01** de la matriz de riesgos.
 
 | Atributo | Descripción |
 | :--- | :--- |
 | **ID en Matriz** | R-01 |
 | **Activo** | Disponibilidad del servicio SICAU durante el periodo de matrículas. |
-| **Amenaza** | Saturación de conexiones concurrentes por inicio de matrículas simultáneas (alta demanda en un momento específico). |
-| **Vulnerabilidad** | Ausencia de la infraestructura física necesaria para tolerar la demanda masiva concurrente. |
+| **Amenaza** | Saturación de conexiones concurrentes por inicio de matrículas simultáneas. |
+| **Vulnerabilidad** | Ausencia de la infraestructura física necesaria para tolerar la demanda. |
 | **Control actual identificado** | La universidad gestiona mediante horarios escalonados quiénes acceden a la parte de matrículas de la plataforma para no colapsar el servidor. |
 | **Consecuencia posible** | Estudiantes viendo afectada su calidad académica al terminar con malos horarios, matriculando en un periodo posterior o no logrando matricular todas las materias. En el peor de los casos, varios estudiantes tendrían que pedir ayuda presencial a la universidad por fallas de la plataforma. |
 | **Probabilidad** | Media (4) |
